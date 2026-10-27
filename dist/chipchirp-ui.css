@@ -28,3 +28,7 @@ button, input, select, textarea { accent-color: var(--cc-accent); }
 }
 
 :root{--cc-accent:#648fab;--cc-focus:#9dc2d7;--cc-tint:#121d25;--cc-border:#2b3b48;}
+
+/* Exact Tools-page glyph color, distinct from the muted interface jewel hue. */
+:root{--cc-icon-color:#29b6ff;}
+.cc-glyph{color:var(--cc-icon-color)}
